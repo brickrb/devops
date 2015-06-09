@@ -21,7 +21,7 @@ set :web, {
 }
 
 # Where should the application go. :myapp is a Symbol to identify application.
-applications[:myapp] = {deploy_to: '/home/app/brickwww'}
+applications[:myapp] = {deploy_to: '/home/app/brick_www'}
 
 # Where should Mamiya store packages, pre-releases temporarily.
 set :packages_dir, '/tmp/mamiya/packages'
